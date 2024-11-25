@@ -1,0 +1,110 @@
+/* Global Styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6; /* Improves readability */
+}
+
+/* Header Section */
+.header {
+    padding: 20px;
+    text-align: center;
+    background: #346E4a; /* Green background */
+    color: white;
+}
+
+.header h1 {
+    display: flex; /* Use Flexbox for alignment */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    gap: 10px; /* Add space between the icon and text */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5rem; /* Increase text size for emphasis */
+    margin: 0; /* Remove default margin */
+}
+
+.header img {
+    width: 50px; /* Logo size */
+    height: 50px; /* Maintained aspect ratio */
+}
+
+/* About Section */
+.About {
+    text-align: center;
+    background-color: #DFF2B6; /* Light green background */
+    color: #346E4A; /* Green text */
+    padding: 10px;
+}
+
+/* Introduction Section */
+.Intro {
+    display: flex; /* Flexbox for centering */
+    justify-content: center;
+    align-items: center;
+    height: 50vh; /* Occupy half the viewport height */
+}
+
+.Intro img {
+    max-width: 20%; /* Limit image width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Circular profile picture */
+}
+
+/* Text Styling */
+h2, p {
+    text-align: center;
+    color: #346E4A; /* Green text */
+    margin: 0; /* Remove default margin */
+    margin-bottom: 10px; /* Add spacing between paragraphs */
+}
+.ttp {
+    margin: 20px auto; /* Center the box and add spacing around it */
+    padding: 20px; /* Space inside the box */
+    max-width: 600px; /* Set a maximum width */
+    background-color: #f9f9f9; /* Light gray background */
+    border: 1px solid #ccc; /* Subtle border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a shadow for depth */
+}
+.ttp p {
+    font-size: 1rem; /* Adjust font size */
+    color: #333; /* Dark text color for readability */
+    line-height: 1.6; /* Better line spacing */
+    text-align: justify; /* Align text for a clean look */
+    margin: 0; /* Remove default margin from the paragraph */
+}
+
+/* Footer Section */
+footer {
+    background: #346E4A; /* Green background */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Social Media Links */
+.socialmedia ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Align items in a row */
+    justify-content: center; /* Center align */
+    gap: 15px; /* Add spacing between logos */
+}
+
+.socialmedia li {
+    display: inline-block;
+}
+
+.socialmedia img {
+    width: 40px; /* Standardized width */
+    height: 40px; /* Standardized height */
+    object-fit: contain; /* Ensures proper scaling */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .Intro img {
+        max-width: 40%; /* Adjust image size for smaller screens */
+    }
+}
